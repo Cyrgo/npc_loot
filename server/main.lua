@@ -6,8 +6,8 @@ local function getRandomSearchReward()
     local rewards = {
         {item = 'money', amount = math.random(config.minSearchCash, config.maxSearchCash), chance = config.searchCashChance},
         {item = 'phone', amount = 1, chance = 15},
-        {item = 'id_card', amount = 1, chance = 10},
         {item = 'wallet', amount = 1, chance = 10},
+        {item = 'joint', amount = math.random(1, 2), chance = 10},
         {item = nil, amount = 0, chance = 15}, -- Nothing found
         -- Add more items as needed
     }
