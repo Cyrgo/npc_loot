@@ -10,11 +10,13 @@ shared_scripts {
 }
 
 client_scripts {
-    'client/main.lua'
+    'client/main.lua',
+    'client/phone_buyer.lua'
 }
 
 server_scripts {
-    'server/main.lua'
+    'server/main.lua',
+    'server/phone_buyer.lua'
 }
 
 lua54 'yes'
